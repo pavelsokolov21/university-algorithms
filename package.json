@@ -1,0 +1,22 @@
+{
+  "name": "uni",
+  "version": "1.0.0",
+  "description": "Before you start you need to check Node on your machine:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pavelsokolov21/university-algorithms.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pavelsokolov21/university-algorithms/issues"
+  },
+  "homepage": "https://github.com/pavelsokolov21/university-algorithms#readme",
+  "dependencies": {
+    "mathjs": "^10.4.0"
+  }
+}

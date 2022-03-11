@@ -1,3 +1,5 @@
+const math = require("mathjs");
+
 const cramer = (matrix, free) => {
   const mainDet = math.det(matrix);
   if (!mainDet) return;
