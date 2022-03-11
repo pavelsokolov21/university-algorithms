@@ -15,5 +15,5 @@ npm i
 Then you can run some file in the console:
 
 ```
-node euler.js
+node ./src/euler.js
 ```
