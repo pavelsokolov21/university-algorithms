@@ -25,7 +25,7 @@ const calculateRatios = (fn, x, y, h) => {
   return [k1, k2, k3, k4];
 };
 
-const eulerPredictorCollector = (fn, initialValue, range, steps) => {
+const eulerFour = (fn, initialValue, range, steps) => {
   const [a, b] = range;
   const [x, y] = initialValue;
   const h = (b - a) / steps;
@@ -54,4 +54,4 @@ const eulerPredictorCollector = (fn, initialValue, range, steps) => {
   };
 };
 
-eulerPredictorCollector(fnDir1, [0, 1], [0, 0.5], 5).drawTableInConsole();
+eulerFour(fnDir1, [0, 1], [0, 0.5], 5).drawTableInConsole();
