@@ -6,19 +6,6 @@ const getRandomNum = (min, max) => {
   return Math.random() * (max - min) + min;
 };
 
-const generateDots = (count, range) => {
-  const [a, b] = range;
-  const arr = [];
-
-  for (let i = 0; i < count; i++) {
-    const randomInt = getRandomNum(a, b);
-
-    arr.push(randomInt);
-  }
-
-  return arr;
-};
-
 const calculateMonteCarloAlg = (fn, range, dotsCount = 10000) => {
   const [a, b] = range;
   const ratio = (b - a) / dotsCount;

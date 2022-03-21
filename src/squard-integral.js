@@ -16,4 +16,8 @@ const squareIntegral = (fn, range, blocksCount = 1000) => {
   return count * h;
 };
 
-console.log(squareIntegral(fn, [0, 1]));
+// console.log(squareIntegral(fn, [0, 1]));
+
+module.exports = {
+  squareIntegral,
+};

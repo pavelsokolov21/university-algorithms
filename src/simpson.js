@@ -45,4 +45,8 @@ const calculateBySimpson = (fn, range, n = 25) => {
   return ratio * count;
 };
 
-console.log(calculateBySimpson(fn, [0, 1]));
+module.exports = {
+  calculateBySimpson,
+};
+
+// console.log(calculateBySimpson(fn, [0, 1]));

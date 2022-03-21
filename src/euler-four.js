@@ -54,4 +54,8 @@ const eulerFour = (fn, initialValue, range, steps) => {
   };
 };
 
-eulerFour(fnDir1, [0, 1], [0, 0.5], 5).drawTableInConsole();
+// eulerFour(fnDir1, [0, 1], [0, 0.5], 5).drawTableInConsole();
+
+module.exports = {
+  eulerFour,
+};

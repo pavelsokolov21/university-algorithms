@@ -40,4 +40,6 @@ const trapezeIntegral = (fn, range, blocksCount = 100) => {
   return count * h;
 };
 
-console.log(trapezeIntegral(fn, [0, 1]));
+module.exports = {
+  trapezeIntegral,
+};
